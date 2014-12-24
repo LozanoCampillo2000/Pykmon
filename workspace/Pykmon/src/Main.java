@@ -82,6 +82,13 @@ public class Main {
 				estrategiaIA(pykmon_usuario, pykmon_ia);
 				turno = 1;
 			}
+			
+			if(pykmon_usuario.getVida() > 0) {
+				System.out.println("Tu Pykmon ha ganado");
+			}
+			else {
+				System.out.println("El Pykmon enemigo ha ganado");
+			}
 		}
 	}
 }
